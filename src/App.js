@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import Main from './Main'
-import Header from './Header'
+import Main from './comp/Main'
+import Header from './comp/Header'
 
 class App extends Component {
   

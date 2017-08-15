@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectsAPI from './util/ProjectsAPI';
+import ProjectsAPI from '../util/ProjectsAPI';
 import { Link } from 'react-router-dom';
 
 
