@@ -1,0 +1,27 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+At this point you might want to remove all CSS files from the source control, and add src/**/*.css to your .gitignore file. It is generally a good practice to keep the build products outside of the source control.
+
+
+#css builds
+/src/**/*.css
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
